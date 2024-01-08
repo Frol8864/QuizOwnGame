@@ -50,6 +50,10 @@ public class TableScorePlayers : MonoBehaviour
         return players;
     }
 
+    public string GetWin(){
+        return blockPlayers[0].player.namePlayer;
+    }
+
     private void SortPlayerStats(List<PlayerStat> playerStats){
         SwapRandomPlayerStats(playerStats);
         for(int i = 0; i < playerStats.Count; i++) {
