@@ -15,7 +15,7 @@ public class LibraryQuestion : MonoBehaviour
         
         question = new Question("Произнесите грузинский тост имениннику", 3,1,-1,2,0,0);
         questions.Add(question);
-        question = new Question("Кончик языка должен быть выше, чем у других", 4,2,-2,2,0,0);
+        question = new Question("Пятка должна быть выше, чем у других", 4,2,-2,2,0,0);
         questions.Add(question);
         question = new Question("Жопа должна быть выше, чем у других", 5,3,-2,3,0,0);
         questions.Add(question);

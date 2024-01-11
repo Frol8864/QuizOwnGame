@@ -14,6 +14,7 @@ public class TableScorePlayers : MonoBehaviour
         for(int i = 0; i < blockPlayers.Count; i++) {
             blockPlayers[i].StartNewGame();
         }
+        blockPlayers[2].player.isPlay = false; //Валера не придет
     }
 
     public void UpdateShow(){
